@@ -1,7 +1,14 @@
-import { App } from "../App"
+// import { App } from "../App" . nicht nötig
 
-export const Album = (props) => {
+export const Album = ({ name }) => {
     return (
-        <p>Künstler: {props.name}</p>
+        <p>Albumname: {name}</p>
     )
 }
+
+//
+// needs subcomponents:
+// AlbumName.jsx
+// AristName.jsx -> all involved sep with ,
+// coverImage.jsx
+// Header.jsx -> for each card/album

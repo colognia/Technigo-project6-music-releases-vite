@@ -73,7 +73,7 @@ This is just a suggestion - how you decide to structure your components is compl
   - When you hover over an album, it should go darker, and you should show a play button, a favourite button, and the ellipsis (see the design sketch)
   - When you hover over the play button, it should grow (see the design sketch)
   - Hovering an artist name or an album name should match the design sketch
-- When you click on the album, it should link to the album's external url in the data
+- When you click on the album, it should link to+ the album's external url in the data
 - When you click on an artist, it should link to the artist's external url in the data
 - Your page should be responsive:
   - showing 4 albums per row on desktop
