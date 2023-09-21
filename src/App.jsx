@@ -3,6 +3,7 @@ import data from "./data.json";
 // returns full object
 import { Album } from "./components/Album";
 import { Header } from "./components/Header";
+import "./app.css"
 
 const albumData = data.albums.items;
 // console.log(albumData);
@@ -15,7 +16,8 @@ export const App = () => {
   const displayAlbums = () => {
     return albumData.map((i) => (
       // return assigns to new array
-      <Album key={i.uri} name={i.name} />
+      <Album key={i.uri} name={i.name} artists={i.artists} />
+      // values which are same lavel and not nested
     ))
   }
 
